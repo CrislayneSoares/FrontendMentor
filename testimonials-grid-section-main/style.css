@@ -64,23 +64,11 @@ figure img {
     background-repeat: no-repeat;
     background-position-x: 70%;
 }
-.daniel figure p {
-    color: hsla(0, 0%, 100%, 0.5);
-}
-.daniel p {
-    color: hsla(0, 0%, 100%, 0.7);
-}
 
 .jonathan {
     grid-area: jonathan;
     background-color: var(--Very_dark_grayish_blue);
     color: var(--White);
-}
-.jonathan figure p {
-    color: hsla(0, 0%, 100%, 0.5);
-}
-.jonathan p {
-    color: hsla(0, 0%, 100%, 0.7);
 }
 
 .jeanette {
@@ -88,23 +76,11 @@ figure img {
     background-color: var(--White);
     color: var(--Very_dark_grayish_blue);
 }
-.jeanette figure p {
-    color: hsl(219, 29%, 14%, 50%);
-}
-.jeanette p {
-    color: hsl(219, 29%, 14%, 70%);
-}
 
 .patrick {
     grid-area: patrick;
     background-color: var(--Very_dark_blackish_blue);
     color: var(--White);
-}
-.patrick figure p {
-    color: hsla(0, 0%, 100%, 0.5);
-}
-.patrick p {
-    color: hsla(0, 0%, 100%, 0.7);
 }
 
 .kira {
@@ -112,11 +88,25 @@ figure img {
     background-color: var(--White);
     color: var(--Very_dark_grayish_blue);
 }
-.kira figure p {
+
+.kira figure p, 
+.jeanette figure p {
     color: hsl(219, 29%, 14%, 50%);
 }
-.kira p {
+.kira p, 
+.jeanette p {
     color: hsl(219, 29%, 14%, 70%);
+}
+
+.daniel figure p, 
+.patrick figure p, 
+.jonathan figure p {
+    color: hsla(0, 0%, 100%, 0.5);
+}
+.daniel p,
+.patrick p,
+.jonathan p {
+    color: hsla(0, 0%, 100%, 0.7);
 }
 
 @media screen and (max-width: 375px) {
